@@ -1,0 +1,168 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title id="title">
+        FreeCodeCamp Survey Page Project
+    </title>
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="title">
+            <h1 id="title">FreeCodeCamp Survey Project</h1>
+        </div>
+        <!-- end of title-->
+
+        <div class="form_body">
+            <p id="description">Tell us about Avengers: IW</p>
+
+            <form id="survey-form" method="GET" action="#">
+                <div class="master_info">
+
+                    <div class="info">
+                        <div class="labels">
+                            <label id="name-label" for="name"> Name* : </label>
+                        </div>
+                        <div class="rightDiv">
+                            <input id="name" type="text" class="name text" required id="name" name="name" placeholder="Enter your name"></input>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <div class="labels">
+                            <label id="email-label" for="email"> Email* : </label>
+                        </div>
+                        <div class="rightDiv">
+                            <input type="email" class="email text" required id="email" name="email" placeholder="Enter your email"></input>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <div class="labels">
+                            <label id="number-label" for="age"> Age* : </label>
+                        </div>
+                        <div class="rightDiv">
+                            <input type="number" class="age text" required id="number" name="age" placeholder="Your age" min="1" max="120"></input>
+                        </div>
+                    </div>
+
+
+                    <div class="info">
+                        <div class="labels">
+                            <label for="dcOrMarvel"> DC or Marvel fan : </label>
+                        </div>
+                        <div class="rightDiv">
+                            <select id="dropdown">
+                                <option value="DC">DC</option>
+                                <option value="Marvel">Marvel</option>
+                                <option value="Both">Both</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <div class="labels">
+                            <label for="favHero"> Which is your favorite movie? : </label>
+                        </div>
+                        <div class="rightDiv">
+
+                            <ul style="list-style: none;">
+
+                                <li>
+
+                                    <input name="radio_group" type="radio" value="1">
+                                    <label>Ironman 1</label>
+                                </li>
+                                <li>
+
+                                    <input name="radio_group" type="radio" value="2">
+                                    <label>Batman</label>
+                                </li>
+                                <li>
+
+                                    <input name="radio_group" type="radio" value="3">
+                                    <label>Both</label>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="labels">
+                            <label for="dcOrMarvel"> Where you watch movies? : </label>
+                        </div>
+                        <div class="rightDiv">
+                            <select id="dropdown">
+                                <option value="Multiplex">Multiplex</option>
+                                <option value="Laptop">Laptop</option>
+                                <option value="mobile">Mobile</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="labels">
+                            <label for="favHero"> Select Your Dream Team Heroes : </label>
+                        </div>
+                        <div class="rightDiv">
+
+                            <ul style="list-style: none;">
+
+                                <li>
+
+                                    <input name="ch_group" type="checkbox" value="1">
+                                    <label>Batman</label>
+                                </li>
+                                <li>
+
+                                    <input name="ch_group" type="checkbox" value="2">
+                                    <label>Superman</label>
+                                </li>
+                                <li>
+
+                                    <input name="ch_group" type="checkbox" value="3">
+                                    <label>Hulk</label>
+                                </li>
+                                <li>
+
+                                    <input name="ch_group" type="checkbox" value="4">
+                                    <label>Thor</label>
+                                </li>
+                                <li>
+
+                                    <input name="ch_group" type="checkbox" value="5">
+                                    <label>Captain America</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="info">
+                        <div class="labels">
+                            <label for="textarea"> What you wish to see in future superhero movies? :
+                            </label>
+                        </div>
+                        <div class="rightDiv">
+
+                            <textarea name="textarea" id="textarea" cols="30" rows="10" required></textarea>
+                        </div>
+                            </div>
+
+                            <div class="btn">
+                                <button id="submit" type="submit">Submit</button>
+                            </div>
+                        </div>
+                        
+
+                        <!-- end of master infp-->
+            </form>
+            </div>
+            <!-- end of form_body -->
+
+            </div>
+            <!-- end of main div-->
+</body>
+
+</html>

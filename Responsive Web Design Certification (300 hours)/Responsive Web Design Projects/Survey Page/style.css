@@ -1,0 +1,93 @@
+body{
+  background: linear-gradient(to right, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace
+}
+label{
+  width: 50px;
+}
+
+.parent{
+  width: 1200px;
+  margin: 0 auto;
+}
+.title{
+  display: solid;
+  border-radius: 5px;
+  text-align: center; 
+  padding: 1em;
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+}
+.form_body{
+  display: solid;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-align: center; 
+  padding: 1em;
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+}
+.master_info{
+  display: inline-block;
+  margin: 0 auto;
+}
+
+input,select{
+    margin-bottom: 15px;
+    height: 30px;
+    border-radius: 3px;
+    border: solid 1px gray;
+    width: 200px;
+    float: left;
+
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+    background: rgb(84, 148, 1);
+    color: white;
+    border: solid 1px gray;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+button:hover{
+    margin: 10px;
+    padding: 10px;
+    background: rgb(0, 250, 0);
+    color: white;
+    border: solid 1px rgb(85, 84, 84);
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.info{
+    display: inline-block;
+    margin: 0 auto;
+    width: 80%;
+    border: solid 1px gray;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.labels{
+  float: left;
+  width: 45%;
+}
+.rightDiv{
+  float: right;
+  width: 45%;
+  margin-left: 5px;
+}
+label{
+  float: right;
+  width: auto;
+}
+li{
+  float: left;
+}
+textarea{
+  float: left;
+}
